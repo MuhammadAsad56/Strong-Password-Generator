@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(222, 40, 40);
+}
+.container {
+    width: fit-content;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 250px;
+    box-shadow: -2px -5px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+input {
+    font-size: 1rem;
+    outline-width: 0;
+    border: 0;
+}
+
+.container img {
+    width: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.container img:active {
+    background-color: rgb(122, 195, 67);
+}
+
+.container h4 {
+    font-size: 26px;
+    color: white;
+}
+
+.container h4 span {
+    color: rgb(189, 202, 177);
+}
+.btn button {
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 13px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover {
+    background-color: rgb(78, 136, 35);
+    color: white;
+}
+.btn button:active {
+    background-color: rgb(59, 125, 9);
+}
